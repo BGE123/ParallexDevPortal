@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="dev.js" defer></script>
+  </head>
+  <body>
+    <div class="overlay">
+      <header>
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <nav class="t">
+          <div class="top">
+            <img src="Images/logo.svg" alt="parallexlogo" />
+            <div class="headers">
+              <a href="landingpage.html"><p>Home</p></a>
+              <a href="#"><p>APIs</p></a>
+              <a href="#"><p>Products</p></a>
+              <a href="#"><p>Get Started</p></a>
+            </div>
+            <div class="btns">
+              <a href="signin.html"><button class="btn1">Sign In</button></a>
+              <button class="btn2">Create an account</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <section class="sect1">
+      <div class="backimage">
+        <div class="overlay2">
+          <div class="welcome">
+            <h2>Welcome</h2>
+            <p>
+              Start leveraging the power of our APls to build mission critical
+              applications
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sign">
+        <div class="signcon">
+          <h3>Sign In</h3>
+          <div class="inputs">
+            <input type="email" placeholder="Email Address" />
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="remember">
+            <div class="tick">
+              <input type="checkbox" />
+              <p>Remember me</p>
+            </div>
+            <p class="d">Don't have an account? <a href="signup.html">Sign Up</a></p>
+          </div>
+          <div class="bandpassword">
+            <button class="si">Sign In</button>
+            <a href="#"><p class="fp">Forgot password?</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
